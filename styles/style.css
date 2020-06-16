@@ -1,0 +1,217 @@
+body{
+    font-family: 'Gilda Display', serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+ .menu{
+     height: inherit;
+     display: flex;
+     align-items: center;
+ }
+
+ .header ol{
+     display: flex;
+     height: inherit;
+     align-items: center;
+     list-style: none;
+ }
+
+ .header a{
+     color: white;
+     text-decoration: none;
+     padding: 0 10px;
+     height: inherit;
+     display: flex;
+     align-items: center;
+ }
+
+ .container{
+     width: 1000px;
+     margin: 0 auto ;
+     display: inherit;
+     justify-content: inherit;
+     align-items: inherit;
+     height: inherit;
+     flex-wrap: inherit;
+ }
+
+ .figure{
+     margin: 0;
+ }
+
+ .logo{
+     margin-top: 5px;
+ }
+
+ .principal{
+     height: 300px;
+     background-color: #1b2127 ;
+     display: flex;
+     align-items: center ;
+     justify-content: space-between;
+ }
+
+ .imagenprincipal{
+     object-fit: cover;
+ }
+
+ h1{
+     color: white;
+     font-size: 30px;
+     line-height: 1.2;
+     text-transform: capitalize;
+     margin: 0;
+ }
+
+ h1, h2, h3,  h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+ }
+
+ strong{
+     color: #D210ED ;
+ }
+
+ h2{
+     color: #2830D6;
+     text-transform: uppercase;
+     font-size: 24px;
+     margin-bottom: 40px;
+ }
+ .acercademi{
+     background-color: rgb(209, 184, 212);
+     padding: 20PX;
+ }
+
+ .sobreMi{
+     border: 1px solid  #1b2127 ;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     padding: 20px;
+     background:  #ecf2f7;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+ .titulo-sobreMi{
+     font-size: 30px;
+     margin-top: 0;
+     margin-bottom: 10px;
+ }
+
+ .subtitulo-sobremi,
+ .info-sobremi{
+     margin: 10px 0;
+ }
+
+ .descripcion-sobremi{
+        font-size: 20px;
+ }
+
+ .sobreMiDetalles{
+     width: 500px;
+ }
+
+ .imagensobremicontenedor{
+     width: 300px;
+     
+ }
+
+ .ListaMasSobreMi{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .imagen-massobremi-contenedor{
+    width: 200px;
+    margin: 0px;   
+ }
+
+ .MasSobreMi{
+     width: 480px;
+     margin: 10px;
+     border-radius: 10px;
+     overflow: hidden;
+     flex-shrink: 0;
+     background-color: rgb(209, 184, 212);
+ }
+
+.detalle-MasSobreMi{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-MasSobremi{
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.contacto{
+     background-color: #D210ED ;
+     color: white;
+     height: 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.link-social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.link-social.Twitter{
+    background-image:url("https://img.icons8.com/ios-filled/50/000000/twitter.png");
+    background-size: 40px 40px;
+}
+
+.link-social.Facebook{
+    background-image:url("https://img.icons8.com/ios-filled/50/000000/facebook-new.png");
+    background-size: 40px 40px;
+}
+
+.link-social.Instagram{
+    background-image:url("https://img.icons8.com/ios-filled/50/000000/instagram-new.png");
+    background-size: 40px 40px;
+}
+
+.formularioe-mail input{
+    border-color: gray;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+}
+ .formularioe-mail button{
+     display: block;
+     background-color: transparent;
+     color: white;
+     border-radius: 5px;
+     width: 100px;
+     padding: 10px 0;
+     margin-top: 10px;
+ }
+
+ .footer{
+     background-color: #1b2127;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
